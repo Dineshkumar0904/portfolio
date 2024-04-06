@@ -16,7 +16,6 @@
   --bg-color: #fff;
   --text-color: #0f0c27;
   --hover: hsl(260, 100%, 51%);
- 
   --big-font: 3.2rem;
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
@@ -32,8 +31,8 @@ body.active {
 body {
    background: var(--bg-color); 
    color: var(--text-color);
-   background: url(image/banner1.jpg) no-repeat;
-   background-position: center;
+    background: url(image/banner1.jpg) no-repeat;
+    background-position: center; 
    background-size: cover;
 
 }
@@ -96,9 +95,10 @@ header {
     grid-template-columns: 0.2fr 1fr 1fr;
     align-items: center;
     gap: 1rem;
-    /* background: url(./image/banner1.jpg) no-repeat;
+    background: url(./image/back\ 5.jpg) no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
+
   }
   .home-img {
     order: 3;
@@ -135,10 +135,10 @@ header {
 
   /* hover */
 
-  .social a:hover {
+  /* .social a:hover {
     color: var(--hover);
     font-size: 30px;
-  }
+  } */
  /* button */
 
  .btn {
@@ -163,6 +163,12 @@ header {
 }
 
 /* about============================================= */
+.about {
+   /* background: url(./image/back\ 5\ 1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; 
+   */
+}
 
 .about-container {
     display: grid;
@@ -196,7 +202,13 @@ header {
     margin-left: 1rem;
 }
 
+
 /* skill content ==================================== */
+.skills {
+  /* background: url(./image/back\ 5.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
 .skills-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -265,10 +277,14 @@ header {
     width: 70%;
 }
 #bootstrap-bar {
-  width: 45%;
+  width: 68%;
 }
 /* services-content========================== */
-
+.services {
+  /* background: url(./image/banner1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
 .services-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -311,7 +327,7 @@ header {
 .services-box:hover h3 {
   color: #fff;
 }
-.services-box:hover .bx {
+.services-box img:hover{
    color: #22cf91;
 }
 .services-box:hover a {
@@ -319,6 +335,11 @@ header {
 }
 
 /* protfolio-content================================== */
+.protfolio {
+  /* background: url(./image/back\ 5.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
 
 .protfolio-content {
   display: grid;
@@ -345,6 +366,11 @@ header {
 }
 
 /* contact form================= */
+.contact {
+  /* background: url(./image/back\ 5\ 1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
 
 .contact-form {
   display: grid;
@@ -373,7 +399,9 @@ form textarea {
 }
 .contact-button {
   width: 160px;
+  height: 50px;
   cursor: pointer;
+  border-radius: 10px;
   background: #2768d9;
   color: #fff;
   justify-content: center;
